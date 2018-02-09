@@ -1,0 +1,50 @@
+【初始化仓库】
+git init
+
+【个人配置信息】
+git config --list
+
+【创建文件】
+mkdir 文件名
+
+【文件夹路径】
+cd 当前文件夹子文件夹路径
+
+【新增文件】
+git add "文件名"
+git commit -m "描述"
+
+【删除文件】
+rm -rf 文件名
+git rm 文件名
+git commit -m "描述"
+
+【下载仓库项目】
+git clone 项目url地址
+
+【没有权限】
+在.git文件夹中找到config文件
+# 将
+[remote "origin"]
+	url = https://github.com/用户名/仓库名.git
+修改为：
+[remote "origin"]
+	url = https://用户名:密码@github.com/用户名/仓库名.git
+
+【添加全部文件】
+git add .
+
+【生成密钥和公钥】
+ssh-keygen -t rsa
+
+【密钥路径】
+C:\Users\Kirby\.ssh
+
+【把本地仓库和远程仓库关联】
+git remote add origin(本地仓库名) url地址
+
+【推送到远程仓库】
+git push origin(本地仓库名) master
+
+【强制覆盖远程仓库】
+git push origin master -f
