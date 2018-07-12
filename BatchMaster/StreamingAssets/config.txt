@@ -1,0 +1,5 @@
+﻿IP = 192.168.1.165
+Port = 6688
+Width = 800
+Height = 600
+CheckTime = 3
