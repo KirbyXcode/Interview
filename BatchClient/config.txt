@@ -1,0 +1,4 @@
+﻿IP = 192.168.1.165
+Port = 6688
+500 | C:\Users\fengyuzhu\Desktop\AI_Quiz\AI_Quiz_01\AI_Quiz.exe
+4000 | C:\Users\fengyuzhu\Desktop\AI_Quiz\AI_Quiz_02\AI_Quiz.exe
