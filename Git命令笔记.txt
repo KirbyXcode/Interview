@@ -1,50 +1,52 @@
-¡¾³õÊ¼»¯²Ö¿â¡¿
+ã€åˆå§‹åŒ–ä»“åº“ã€‘
 git init
 
-¡¾¸öÈËÅäÖÃĞÅÏ¢¡¿
+ã€ä¸ªäººé…ç½®ä¿¡æ¯ã€‘
 git config --list
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
 
-¡¾´´½¨ÎÄ¼ş¡¿
-mkdir ÎÄ¼şÃû
+ã€åˆ›å»ºæ–‡ä»¶ã€‘
+mkdir æ–‡ä»¶å
 
-¡¾ÎÄ¼ş¼ĞÂ·¾¶¡¿
-cd µ±Ç°ÎÄ¼ş¼Ğ×ÓÎÄ¼ş¼ĞÂ·¾¶
+ã€æ–‡ä»¶å¤¹è·¯å¾„ã€‘
+cd å½“å‰æ–‡ä»¶å¤¹å­æ–‡ä»¶å¤¹è·¯å¾„
 
-¡¾ĞÂÔöÎÄ¼ş¡¿
-git add "ÎÄ¼şÃû"
-git commit -m "ÃèÊö"
+ã€æ–°å¢æ–‡ä»¶ã€‘
+git add "æ–‡ä»¶å"
+git commit -m "æè¿°"
 
-¡¾É¾³ıÎÄ¼ş¡¿
-rm -rf ÎÄ¼şÃû
-git rm ÎÄ¼şÃû
-git commit -m "ÃèÊö"
+ã€åˆ é™¤æ–‡ä»¶ã€‘
+rm -rf æ–‡ä»¶å
+git rm æ–‡ä»¶å
+git commit -m "æè¿°"
 
-¡¾ÏÂÔØ²Ö¿âÏîÄ¿¡¿
-git clone ÏîÄ¿urlµØÖ·
+ã€ä¸‹è½½ä»“åº“é¡¹ç›®ã€‘
+git clone é¡¹ç›®urlåœ°å€
 
-¡¾Ã»ÓĞÈ¨ÏŞ¡¿
-ÔÚ.gitÎÄ¼ş¼ĞÖĞÕÒµ½configÎÄ¼ş
-# ½«
+ã€æ²¡æœ‰æƒé™ã€‘
+åœ¨.gitæ–‡ä»¶å¤¹ä¸­æ‰¾åˆ°configæ–‡ä»¶
+# å°†
 [remote "origin"]
-	url = https://github.com/ÓÃ»§Ãû/²Ö¿âÃû.git
-ĞŞ¸ÄÎª£º
+	url = https://github.com/ç”¨æˆ·å/ä»“åº“å.git
+ä¿®æ”¹ä¸ºï¼š
 [remote "origin"]
-	url = https://ÓÃ»§Ãû:ÃÜÂë@github.com/ÓÃ»§Ãû/²Ö¿âÃû.git
+	url = https://ç”¨æˆ·å:å¯†ç @github.com/ç”¨æˆ·å/ä»“åº“å.git
 
-¡¾Ìí¼ÓÈ«²¿ÎÄ¼ş¡¿
+ã€æ·»åŠ å…¨éƒ¨æ–‡ä»¶ã€‘
 git add .
 
-¡¾Éú³ÉÃÜÔ¿ºÍ¹«Ô¿¡¿
+ã€ç”Ÿæˆå¯†é’¥å’Œå…¬é’¥ã€‘
 ssh-keygen -t rsa
 
-¡¾ÃÜÔ¿Â·¾¶¡¿
+ã€å¯†é’¥è·¯å¾„ã€‘
 C:\Users\Kirby\.ssh
 
-¡¾°Ñ±¾µØ²Ö¿âºÍÔ¶³Ì²Ö¿â¹ØÁª¡¿
-git remote add origin(±¾µØ²Ö¿âÃû) urlµØÖ·
+ã€æŠŠæœ¬åœ°ä»“åº“å’Œè¿œç¨‹ä»“åº“å…³è”ã€‘
+git remote add origin(æœ¬åœ°ä»“åº“å) urlåœ°å€
 
-¡¾ÍÆËÍµ½Ô¶³Ì²Ö¿â¡¿
-git push origin(±¾µØ²Ö¿âÃû) master
+ã€æ¨é€åˆ°è¿œç¨‹ä»“åº“ã€‘
+git push origin(æœ¬åœ°ä»“åº“å) master
 
-¡¾Ç¿ÖÆ¸²¸ÇÔ¶³Ì²Ö¿â¡¿
+ã€å¼ºåˆ¶è¦†ç›–è¿œç¨‹ä»“åº“ã€‘
 git push origin master -f
