@@ -39,6 +39,14 @@ git add .
 【生成密钥和公钥】
 ssh-keygen -t rsa
 
+【查看关联的远程库】
+git remote -v
+origin    git@github.com:michaelliao/learngit.git (fetch)
+origin    git@github.com:michaelliao/learngit.git (push)
+
+【再次关联远程库】
+git remote add origin git@gitee.com:liaoxuefeng/learngit.git
+
 【密钥路径】
 C:\Users\Kirby\.ssh
 
