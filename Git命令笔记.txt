@@ -58,3 +58,6 @@ git push origin(本地仓库名) master
 
 【强制覆盖远程仓库】
 git push origin master -f
+
+git diff     diff=difference 查看修改了什么内容
+git log      查看改动日志，可以加参数
