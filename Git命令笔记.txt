@@ -62,3 +62,53 @@ git push origin master -f
 git diff     diff=difference 查看修改了什么内容
 git log      查看改动日志，可以加参数
 $ git log --pretty=oneline
+
+----------------------------------
+
+添加远程库@important 重头戏！！
+
+注意！执行下面操作时一定要在本地新建ssh，并且在github也新建ssh，具体操作请百度，不然git push的会报错
+
+$ git remote add origin git@github.com:'你的github账号'/learngit.git
+
+远程库的名字就是origin
+
+$ git push -u origin master
+
+成功~
+
+从远程库克隆
+
+$ git clone git@github.com:'你的github账号'/gitskills.git
+
+五、分支合并的命令
+
+创建并切换分支
+
+$ git checkout -b dev
+
+用git branch查看分支
+
+$ git branch
+
+切换分支
+
+$ git checkout master
+
+合并某个分支
+
+$ git merge dev
+
+删除废弃分支（合并后没用了）
+
+$ git branch -d dev
+
+解决冲突
+
+用git log --graph可以查看合并图
+
+用-ff表示禁用快速模式
+
+$ git merge --no-ff -m "merge with no-ff" dev
+
+
