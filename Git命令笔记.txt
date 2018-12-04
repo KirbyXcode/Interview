@@ -120,3 +120,5 @@ git push -u origin master
 git reset head --hard 考虑暂存区的本地仓库回滚
 git reset head --soft 不考虑暂存区的本地仓库回滚
 git ls-files 查看本地仓库内容
+
+rm .git/index 清空本地仓库文件
