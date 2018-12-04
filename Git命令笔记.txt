@@ -116,3 +116,6 @@ $ git merge --no-ff -m "merge with no-ff" dev
 cd existing_git_repo
 git remote add origin git@gitee.com:kirby_yu/Hollywood_of_the_East_Client.git
 git push -u origin master
+
+git reset head --hard 考虑暂存区的本地仓库回滚
+git reset head --soft 不考虑暂存区的本地仓库回滚
