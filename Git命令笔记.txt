@@ -111,4 +111,8 @@ $ git branch -d dev
 
 $ git merge --no-ff -m "merge with no-ff" dev
 
-
+--------------
+已有项目?
+cd existing_git_repo
+git remote add origin git@gitee.com:kirby_yu/Hollywood_of_the_East_Client.git
+git push -u origin master
