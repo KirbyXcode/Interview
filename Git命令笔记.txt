@@ -128,4 +128,4 @@ git checkout -- readme.txt 		撤销工作区的修改
 git reset HEAD readme.txt 		撤销暂存区指定文件的修改
 git branch				查看当前分支
 git checkout remote branch 		若分支为本地分支，则需切换到服务器的远程分支
-git pull 				更新代码到本地
+git pull origin master			更新代码到本地
